@@ -4,17 +4,18 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using StowageApplication.Data;
 using StowageApplication.Models;
 
-namespace StowageApplication.Controller
+namespace StowageApplication.Controllers
 {
-    public class FileStowagesController : ControllerContext
+    public class FileStowagesControllers : Controller
     {
         private readonly FileStowageContext _context;
 
-        public FileStowagesController(FileStowageContext context)
+        public FileStowagesControllers(FileStowageContext context)
         {
             _context = context;
         }
