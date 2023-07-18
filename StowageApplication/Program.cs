@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using StowageApplication.data;
 using StowageApplication.Data;
 
 namespace StowageApplication
@@ -13,6 +14,8 @@ namespace StowageApplication
             builder.Services.AddRazorPages();
 
             builder.Services.AddDbContext<FileStowageContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddScoped<SeedingServices>();
 
             var app = builder.Build();
 
@@ -32,6 +35,13 @@ namespace StowageApplication
             app.UseAuthorization();
 
             app.MapRazorPages();
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                var seedingService = services.GetRequiredService<SeedingServices>();
+                seedingService.Seed();
+            }
 
             app.Run();
         }
