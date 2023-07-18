@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StowageApplication
 build_property.RootNamespace = StowageApplication
-build_property.ProjectDir = E:\WorkSpace\CSharp\StowageApplication\StowageApplication\
+build_property.ProjectDir = E:\WorkSpace\CSharp\StowageWebApplication\StowageApplication\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\WorkSpace\CSharp\StowageApplication\StowageApplication
+build_property.MSBuildProjectDirectory = E:\WorkSpace\CSharp\StowageWebApplication\StowageApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/WorkSpace/CSharp/StowageApplication/StowageApplication/Pages/Error.cshtml]
+[E:/WorkSpace/CSharp/StowageWebApplication/StowageApplication/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WorkSpace/CSharp/StowageApplication/StowageApplication/Pages/Index.cshtml]
+[E:/WorkSpace/CSharp/StowageWebApplication/StowageApplication/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WorkSpace/CSharp/StowageApplication/StowageApplication/Pages/Privacy.cshtml]
+[E:/WorkSpace/CSharp/StowageWebApplication/StowageApplication/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WorkSpace/CSharp/StowageApplication/StowageApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[E:/WorkSpace/CSharp/StowageWebApplication/StowageApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WorkSpace/CSharp/StowageApplication/StowageApplication/Pages/_ViewImports.cshtml]
+[E:/WorkSpace/CSharp/StowageWebApplication/StowageApplication/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WorkSpace/CSharp/StowageApplication/StowageApplication/Pages/_ViewStart.cshtml]
+[E:/WorkSpace/CSharp/StowageWebApplication/StowageApplication/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/WorkSpace/CSharp/StowageApplication/StowageApplication/Pages/Shared/_Layout.cshtml]
+[E:/WorkSpace/CSharp/StowageWebApplication/StowageApplication/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pwuivl7epg

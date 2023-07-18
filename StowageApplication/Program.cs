@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using StowageApplication.Data;
+
 namespace StowageApplication
 {
     public class Program
@@ -8,6 +11,8 @@ namespace StowageApplication
 
             // Add services to the container.
             builder.Services.AddRazorPages();
+
+            builder.Services.AddDbContext<FileStowageContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
