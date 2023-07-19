@@ -11,16 +11,17 @@ using StowageApplication.Models;
 
 namespace StowageApplication.Controllers
 {
-    public class FileStowagesControllers : Controller
+    public class FileStowagesController : Controller
     {
         private readonly FileStowageContext _context;
 
-        public FileStowagesControllers(FileStowageContext context)
+        public FileStowagesController(FileStowageContext context)
         {
             _context = context;
         }
 
         // GET: FileStowages
+        [Route("FileStowages")]
         public async Task<IActionResult> Index()
         {
               return _context.FileStowage != null ? 
