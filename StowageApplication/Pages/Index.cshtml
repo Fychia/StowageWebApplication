@@ -5,59 +5,7 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Stowage Application</h1>
+    
 </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-@if (Model.FileStowages != null && Model.FileStowages.Any())
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    File Name
-                </th>
-                <th>
-                    File Size
-                </th>
-                <th>
-                    Remote Path
-                </th>
-                <th>
-                    Upload Date
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var fileStowage in Model.FileStowages)
-            {
-                <tr>
-                    <td>
-                        @fileStowage.FileName
-                    </td>
-                    <td>
-                        @fileStowage.FileSize
-                    </td>
-                    <td>
-                        @fileStowage.RemotePath
-                    </td>
-                    <td>
-                        @fileStowage.UploadDate
-                    </td>
-                     <td>
-                <a asp-action="Edit" asp-route-id="@fileStowage.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@fileStowage.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@fileStowage.ID">Delete</a>
-            </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
-else
-{
-    <p>No FileStowage records found.</p>
-}

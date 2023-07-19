@@ -21,7 +21,6 @@ namespace StowageApplication.Controllers
         }
 
         // GET: FileStowages
-        [Route("FileStowages")]
         public async Task<IActionResult> Index()
         {
               return _context.FileStowage != null ? 
